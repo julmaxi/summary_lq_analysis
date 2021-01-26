@@ -9,7 +9,6 @@ library(car)
 if(!require(RVAideMemoire)) {
     install.packages("RVAideMemoire", dependencies=TRUE)
 }
-library(RVAideMemoire)
 if(!require(emmeans)) {
     install.packages("emmeans", dependencies=TRUE)
 }
