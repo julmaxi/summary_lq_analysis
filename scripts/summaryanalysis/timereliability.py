@@ -1,6 +1,6 @@
 import random
 import itertools as it
-from tqdm import tqdm
+from tqdm.auto import tqdm
 import scipy.stats
 from summaryanalysis.annotationutils import get_annotator_groups
 import numpy as np
@@ -14,7 +14,7 @@ def compute_grouped_subsample_variance(annotations, crossed=False, score_name="c
     qualities = []
     annotation_costs = []
 
-    for sample_size in tqdm(range(len(groups))):
+    for sample_size in tqdm(range(len(groups)), leave=False):
         sample_qualities = []
 
         for idx in range(limit):
@@ -56,7 +56,7 @@ def compute_time_reliability_curve(annotations, times, score_key="coherence_scor
         random.shuffle(combs)
         combs = combs[:500]
 
-        for comb in tqdm(combs):
+        for comb in tqdm(combs, leave=False):
             key = [a for b in comb for a in b]
 
             sample_scores = annotations.loc[key].groupby("system").mean().sort_index()[score_key].to_numpy()

@@ -5,7 +5,7 @@ import summaryanalysis.ordinal as ordinal
 from summaryanalysis.art import paired_approximate_randomization_test
 from summaryanalysis.annotationutils import get_annotator_groups
 from pathlib import Path
-from tqdm import tqdm
+from tqdm.auto import tqdm
 import re
 import itertools as it
 from collections import defaultdict, Counter
