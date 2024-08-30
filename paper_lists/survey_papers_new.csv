@@ -1,0 +1,16 @@
+paper;SDS/MDS;method;ext/abs;genre;languages;corpus;inf/cov/fo;rel;correct/faith;qa;fluency;gram;read;rep;coh;ref;other;overall;#docs;#systems;reference?;anntype;#ann_total;#ann_item;design;agreement;measure;aggregation;report;stattest;setup;
+huot-etal-2024-mplan;SDS;neural;Abs;Wikipedia;EN,CS,DE,FR;"XWikis
+";X;;X;;;;;;;;;;100;2;Y;Crowd;178;?;?;?;Pw ties + relative rating;?;%win/lose/tie;Wilcoxon;Orig+Sum;
+xie-etal-2024-shot;SDS;neural;Abs;Dialouge;EN;TODSUM,SPNet;X;;X;;X;;;X;;;;;100;4;Y;Prolific;?;5;?;0.577, 0.635, 0.649, 0.591;Likert-3;Average;Average;None;?;
+mondal-etal-2024-presentations;SDS;neural;Abs;Presentations;EN;?;;;;;;;;;;;;;;;;;;;;;;;;;;We ignore the evaluation of topic selection, as well the comparison of intermediate steps
+Mondal 1;;;;;;;X;X;;;;;X;;X;;;;10;4;Y;Experts;3;?;?;?;Likert-5;Average;Average;None;?;
+Mondal 2;;;;;;;X;X;;;;;X;;X;;;;10;4;Y;Non-Experts;3;?;?;?;Likert-5;Average;Average;None;?;
+le-luu-2024-extractive;SDS;neural;Ext.;News;EN;CNN/DM;X;;;;;;;;X;;;;150;2;Y;Non-Experts;3;3;crossed;0.70,0.65 kappa;PW;Average;Average;None;?;
+zhang-etal-2024-fair;MDS;neural;Abs.;Opinion;EN;Claritin US Election Yelp Amazon SupremeCourt IQ2;;;;;;;;;;;;;;;;;;;;;;;;;;
+Zhang 1;;;;;;;X;;;;;;;;;;;;100;4;N;Non-Experts;4;?;?;68.97 Krippendorff;ACU;Average;Average;None;?;
+Zhang 2;;;;;;;;;;;;;;;;;X;;100;4;N;Non-Experts;4;?;?;0.41 Randolph’s Kappa;Likert-5;Average;Average;None;?;Fairness
+liu-etal-2024-learning;SDS;Neural;Abs.;News;EN;CNN/DM;;;;;;;;;;;;;;;;;;;;;;;;;;
+Liu 1;;;;;;;;X;;;;;;;X;;;X;100;4;N;Crowd;?;3;?;0.064 Krippendorf;PW;Average;Average;None;?;Salience
+Liu 2;;;;;;;;X;;;;;;;X;;;X;50;6;N;Author;3;3;crossed;0.044 Krippendorff;PW;Average;Average;None;?;Salience
+siledar-etal-2024-product;SDS;Neural;Abs.;Opinion;EN;Masters’ students;;;X;;X;;;X;X;;;;?;4;N;Students;6;?;?;?;BWS;Average;Average;None;?;Faithfulness
+le-2024-cross;SDS;Neural;Abs.;Wikihow;EN,Vietnamese;Non-Experts;X;;;;X;;;;;;;;50;3;N;Non-Experts;6;3;crossed;?;Ranking;Average;Average;None;?;

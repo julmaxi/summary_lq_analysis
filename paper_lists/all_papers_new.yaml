@@ -1,0 +1,29 @@
+no_human_eval:
+- song-etal-2024-entity
+- zhou-etal-2024-diffusion
+- van-der-meer-etal-2024-empirical
+- vernikos-etal-2024-small
+- flores-cohan-2024-benefits
+- xiao-etal-2024-personalized
+- parnell-etal-2024-sumtra
+- jiang-etal-2024-trisum
+- li-etal-2024-exploring
+- khosravani-etal-2024-enhancing
+- renduchintala-etal-2024-tied
+- elhady-etal-2024-improving
+- shi-etal-2024-trusting
+- zhao-etal-2024-hierarchical
+- whitehouse-etal-2024-low
+- xu-etal-2024-llmrefine
+- chae-etal-2024-mitigating
+- yan-etal-2024-visual
+- saxena-keller-2024-select
+with_human_eval:
+- huot-etal-2024-mplan
+- xie-etal-2024-shot
+- mondal-etal-2024-presentations
+- le-luu-2024-extractive
+- zhang-etal-2024-fair
+- liu-etal-2024-learning
+- siledar-etal-2024-product
+- le-2024-cross
